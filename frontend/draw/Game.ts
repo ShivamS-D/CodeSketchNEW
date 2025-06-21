@@ -1,5 +1,5 @@
 import { getExistingShapes } from "./http";
-
+// This is for tool type
 type Tool = "circle" | "rect" | "pencil" | "eraser" | "move";
 
 export type Shape =
