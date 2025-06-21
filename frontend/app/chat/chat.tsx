@@ -10,7 +10,7 @@ import { useState } from "react";
 /// - socket: WebSocket - the WebSocket connection
 /// - roomId: string - the room ID for the chat
 /// - username: string - the username of the user
-
+/// - userId: number- the userId of the user
 interface ChatInterfaceProps {
   isChatOpen: boolean;
   setIsChatOpen: (isOpen: boolean) => void;
